@@ -37,6 +37,10 @@ def corrida(n):
     for x in range(0,n+1):
         for num in range(30):
             list[x].fd(random.randint(5,10))
+            x=x+1
+
+#Incompleto ainda
+
             
 corrida(3)
 
